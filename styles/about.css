@@ -200,6 +200,11 @@ body {
 	filter: brightness(20%);
 	transition: 1s ease;
 }
+.contact-info {
+	text-align: left;
+	margin-top: 1em;
+	visibility: hidden;
+}
 
 .team h3 {
 	margin-top: 1em;

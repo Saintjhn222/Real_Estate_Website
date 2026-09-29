@@ -47,7 +47,7 @@ li a::before {
 	position: absolute;
 	width: 0;
 	height: 3px;
-	background: linear-gradient(to right, black, white);
+	background: linear-gradient(to right, black, orange);
 	bottom: -10px;
 	border-radius: 10px;
 	transition: 0.3s ease;
@@ -80,4 +80,8 @@ nav img {
 }
 .nav-actions button:hover {
 	transform: scale(1.2);
+}
+
+span {
+	color: orange;
 }

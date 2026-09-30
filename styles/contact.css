@@ -1,0 +1,70 @@
+.box {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 100vh;
+}
+.box-1,
+.box-2 {
+	width: 100%;
+	height: 80vh;
+}
+.box-1 {
+	margin-left: 10%;
+	margin-top: 3em;
+	width: 100%;
+	height: fit-content;
+	padding: 2em;
+	border-radius: 10px;
+}
+.box-1 h1 {
+	font-size: 3em;
+	margin-bottom: 1em;
+	letter-spacing: 3px;
+}
+h2 {
+	font-size: 3em;
+	text-align: center;
+}
+.box-1,
+input[type="text"],
+textarea {
+	background-color: hsla(0, 0%, 100%, 0.158);
+	color: white;
+}
+
+.con {
+	margin: 2em 0;
+	padding-bottom: 1em;
+}
+
+/* form  */
+form {
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	padding: 3em;
+}
+/*  */
+input[type="text"],
+textarea {
+	margin-top: 1em;
+	width: 40em;
+	height: 4em;
+	border-radius: 10px;
+	border: none;
+	padding: 0 2em;
+}
+/*  */
+textarea {
+	padding: 1em;
+	height: 20em;
+}
+.message {
+	margin-top: 1em;
+	width: 10em;
+	padding: 10px;
+	border-radius: 10px;
+	border: none;
+	cursor: pointer;
+}

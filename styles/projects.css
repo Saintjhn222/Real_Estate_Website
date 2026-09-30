@@ -10,6 +10,7 @@
 }
 
 .grid {
+	margin-bottom: 5em;
 	height: 100%;
 	width: 100%;
 	display: grid;
@@ -38,6 +39,7 @@
 }
 .card:hover {
 	transform: scale(1.05);
+	box-shadow: 0 0 20px;
 }
 .card img {
 	width: 100%;
